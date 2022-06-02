@@ -218,6 +218,11 @@ tr {
 
 .my-4 {
   color: #00F1F3;
+  font-size: 25px;
+}
+
+.texto {
+  font-size: 15px;
 }
 
 .bbtn {
