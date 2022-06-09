@@ -34,6 +34,43 @@
     gtag('event', 'conversion', {'send_to': 'AW-782854364/fsaLCPq8vMQDENzRpfUC'});
     </script>
     
+    <!-- Event snippet for [PAGE VIEW] conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+    var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-782854364/eoCgCNLHlMQDENzRpfUC',
+      'event_callback': callback
+    });
+    return false;
+   }
+    </script>
+    
+    <!-- Event snippet for [BOTÃO DO WHATSAPP] conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'cta1') {
+      window.location = url;
+    }
+  };
+  if (typeof(url) != 'cta2') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-782854364/hAaKCNaUxcQDENzRpfUC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
     
   </head>
   <body>
